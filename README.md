@@ -1,5 +1,4 @@
 
-
 # AI Feedback Analyzer
 
 An end-to-end sentiment and topic analysis system built with Hugging Face Transformers and Scikit-learn.
@@ -9,6 +8,14 @@ An end-to-end sentiment and topic analysis system built with Hugging Face Transf
 - Extracts discussion topics using K-Means clustering
 - Works with CSV or text files
 - Outputs structured JSON summaries
+
+## Repository Structure
+├── feedback_analysis.ipynb   # Main Colab notebook for sentiment and topic analysis
+├── clean_feedback.csv        # Example dataset of feedback comments
+├── requirements.txt          # Dependencies for running the notebook
+├── report.json               # Example output file (sentiment summary)
+└── README.md                 # Project overview and instructions
+
 
 ## How to Run
 1. Upload your feedback file (CSV or TXT) to Colab.
